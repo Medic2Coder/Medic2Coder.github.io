@@ -33,6 +33,16 @@ html {
 }
 
 body {
+    background-image: url("assets/images/cybertron-person.png");
+    background-size: cover;
+    background-repeat: no-repeat;  /* Do not repeat the image */
+    /*background-position: center;  !* Center the image *!*/
+    /*background-color: #ccc;*/
+    /*background-blend-mode: overlay;*/
+    /*--background-primary: #2f3136;*/
+    background-color: #2f3136;
+    color: #5dbcd2;
+    /*--background-primary-alt: #36393f;*/
 }
 
 
@@ -65,9 +75,11 @@ header {
 }
 
 nav {
+
 }
 
 nav ul, nav ol {
+
 }
 
 nav li {
@@ -665,6 +677,10 @@ and (min-width: 1824px) {
     text-decoration: underline;
     color: #9e8aff;
     Opacity: 1;
+    /*--background-primary: #2f3136;*/
+    background-color: #2f3136;
+    /*color: #5dbcd2;*/
+    /*--background-primary-alt: #36393f;*/
 }
 
 /*.fancy-header {*/
@@ -1327,7 +1343,7 @@ and (min-width: 1824px) {
     /*color: blue; !* single line comment *!*/
     text-decoration: underline;
     color: #9e8aff;
-    Opacity: 1;
+    Opacity: 0.8;
 }
 
 /*.fancy-header {*/
