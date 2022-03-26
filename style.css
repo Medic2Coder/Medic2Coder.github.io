@@ -19,7 +19,7 @@ pseudo-elements). One common use of this selector is to apply a custom
 
 #nav-opacity {
 
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 
@@ -141,9 +141,12 @@ ol {
 }
 
 ul {
+  font-size:20px
+
 }
 
 li {
+
 }
 
 ol ol, ol ul, ul ul, ul ol {
@@ -679,21 +682,8 @@ and (min-width: 1824px) {
 /*    background-color:#36393f;*/
 /*}*/
 
-.fancy-header {
-    /*color: blue; !* single line comment *!*/
-    text-decoration: underline;
-    color: #9e8aff;
-    Opacity: 1;
-    /*--background-primary: #2f3136;*/
-    background-color: #2f3136;
-    /*color: #5dbcd2;*/
-    /*--background-primary-alt: #36393f;*/
-}
 
-/*.fancy-header {*/
-/*    color: #291d60; !* single line comment *!*/
-/*    text-decoration: underline;*/
-/*}*/
+
 .theme-dark {
     /*--background-primary: #2f3136;*/
     background-color: #2f3136;
@@ -1347,16 +1337,19 @@ and (min-width: 1824px) {
 /*}*/
 
 .fancy-header {
-    /*color: blue; !* single line comment *!*/
     text-decoration: underline;
+    /*color: #9e8aff;*/
     color: #9e8aff;
-    Opacity: 0.8;
+    /*Opacity: 0.8;*/
+    /*color: #9e8aff;*/
+    /*Opacity: 0.5;*/
+    /*--background-primary: #2f3136;*/
+    /*background-color: #2f3136;*/
+    /*color: #5dbcd2;*/
+    /*--background-primary-alt: #36393f;*/
+
 }
 
-/*.fancy-header {*/
-/*    color: #291d60; !* single line comment *!*/
-/*    text-decoration: underline;*/
-/*}*/
 .theme-dark {
     /*--background-primary: #2f3136;*/
     background-color: #2f3136;
